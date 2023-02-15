@@ -64,7 +64,7 @@
 
                 <!-- Theme change button -->
 
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <i class="uil uil-moon change-theme" id="theme-button" onclick="SwitchMode()"></i>
 
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"> </i>
@@ -114,7 +114,8 @@
                     <div class="home__data">
                         <h1 class="home__title">Hi, I'm Rishabh Chaubey</h1>
                         <h3 class="home__subtitle">Frontend developer</h3>
-                        <p class="home__description">High level experience in web design and development knowledge, producing quality work.</p>
+                        <p class="home__description">Experience in Web development knowledge,
+                            producing quality work.</p>
                         <a href="#contact" class="button button-flex">
                             Contact Me <i class="uil uil-message button__icon"></i>
                         </a>
@@ -136,12 +137,11 @@
             <span class="section__subtitle">My introduction</span>
 
             <div class="about__container container grid">
-                <img src="assets/img/about.jpg" alt="" class="about__img">
+                <img src="assets/img/rishu.jpeg" alt="" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description">Web developer, with extensive knowledge
-                         and years of experience, working in web technologies and
-                          Ui / Ux design, delivering quality work.
+                    <p class="about__description">Web developer, with Frontend knowledge
+                        and experience,and delivering quality work.
                     </p>
 
                     <div class="about__info">
@@ -162,7 +162,7 @@
                     </div>
 
                     <div class="about__buttons">
-                        <a download="" href="assets/pdf/Rishabh Chaubey-Cv.pdf" class="button button--flex">
+                        <a download="" href="./resume-richerts-f.pdf" class="button button--flex">
                             Download CV<i class="uil uil-download-alt button__icon"></i>
                         </a>
                     </div>
@@ -277,12 +277,12 @@
                                     <div class="skills__percentage skills__firebase"></div>
                                 </div>
 
-                            </div>                                             
+                            </div>
 
 
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
 
 
@@ -310,278 +310,333 @@
                 </div>
 
                 <div class="qualification__sections">
-            <!--==================== QUALIFICATION CONTENT 1 ====================-->
-            <div class="qualification__content qualification__active" data-content id="education">
-             <!--==================== QUALIFICATION 1 ====================--> 
-           
-             <div class="qualification__data">
-                <div>
-                    <h3 class="qualification__title">Secondary School Certificate Exam</h3>
-                    <span class="qualification__subtitle">CBSE Board</span>
-                    <div class="qualification__calendar">
-                       <i class="uil uil-calendar-alt"></i>
-                       2015-2016
-                    </div>
-                </div>
+                    <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--==================== QUALIFICATION 1 ====================-->
 
-                <div>
-                    <span class="qualification__rounder"></span>
-                    <span class="qualification__line"></span>
-                </div>
-            </div> 
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Secondary School Certificate Exam</h3>
+                                <span class="qualification__subtitle">CBSE Board</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2015-2016
+                                </div>
+                            </div>
 
-             <!--==================== QUALIFICATION 2 ====================--> 
-             <div class="qualification__data">
-                <div></div>
-                <div>
-                   <span class="qualification__rounder"></span>
-                   <span class="qualification__line"></span>
-                </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
 
-                <div>
-                    <h3 class="qualification__title">Higher Secondary Certificate Examination</h3>
-                    <span class="qualification__subtitle">UP Board</span>
-                    <div class="qualification__calendar">
-                       <i class="uil uil-calendar-alt"></i>
-                       2018-2019
-                    </div>
-                </div>
-            </div> 
+                        <!--==================== QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
 
-            <!--==================== QUALIFICATION 3 ====================--> 
-            
+                            <div>
+                                <h3 class="qualification__title">Higher Secondary Certificate Examination</h3>
+                                <span class="qualification__subtitle">UP Board</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2018-2019
+                                </div>
+                            </div>
+                        </div>
 
-            <div class="qualification__data">
-                <div>
-                    <h3 class="qualification__title">Computer Application</h3>
-                    <span class="qualification__subtitle">Maharana Pratap Engineering College - Kanpur</span>
-                    <div class="qualification__calendar">
-                       <i class="uil uil-calendar-alt"></i>
-                       2019-2022
-                    </div>
-                </div>
+                        <!--==================== QUALIFICATION 3 ====================-->
 
-                <div>
-                    <span class="qualification__rounder"></span>
-                    <span class="qualification__line"></span>
-                </div>
-            </div>
 
-            <!--==================== QUALIFICATION 4 ====================--> 
-            <div class="qualification__data">
-                <div></div>
-                <div>
-                    <span class="qualification__rounder"></span>
-                   <!-- <span class="qualification__line"></span> -->
-                </div>
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Computer Application</h3>
+                                <span class="qualification__subtitle">Maharana Pratap Engineering College -
+                                    Kanpur</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019-2022
+                                </div>
+                            </div>
 
-                <div>
-                    <h3 class="qualification__title">Full Stack <span>MERN</span> Web Developer</h3>
-                    <span class="qualification__subtitle">Prepbytes - Online Platform</span>
-                    <div class="qualification__calendar">
-                       <i class="uil uil-calendar-alt"></i>
-                       Aug 2022 - Feb 2023
-                    </div>
-                </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
 
-                
-            </div>
-            </div>
-            
-            <!--==================== QUALIFICATION CONTENT 2 ====================-->
-            <div class="qualification__content" data-content id="work">
-                <!--==================== QUALIFICATION 1 ====================--> 
-                <div class="qualification__data">
-                    <div>
-                        <h3 class="qualification__title">Web Developer</h3>
-                        <span class="qualification__subtitle">None</span>
-                        <div class="qualification__calendar">
-                           <i class="uil uil-calendar-alt"></i>
-                           To Be
+                        <!--==================== QUALIFICATION 4 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Full Stack <span>MERN</span> Web Developer</h3>
+                                <span class="qualification__subtitle">Prepbytes - Online Platform</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Aug 2022 - Feb 2023
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
-   
-                    <div>
-                        <span class="qualification__rounder"></span>
-                        <span class="qualification__line"></span>
+
+                    <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--==================== QUALIFICATION 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Web Developer</h3>
+                                <span class="qualification__subtitle">None</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    To Be
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Frontend - Developer</h3>
+                                <span class="qualification__subtitle">None</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    To Be
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 3 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Backend - Developer</h3>
+                                <span class="qualification__subtitle">None</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    To Be
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+                        </div>
+
                     </div>
+
                 </div>
-                
-                <!--==================== QUALIFICATION 2 ====================--> 
-                <div class="qualification__data">
-                   <div></div>
-                   <div>
-                      <span class="qualification__rounder"></span>
-                      <span class="qualification__line"></span>
-                   </div>
-   
-                   <div>
-                       <h3 class="qualification__title">Frontend - Developer</h3>
-                       <span class="qualification__subtitle">None</span>
-                       <div class="qualification__calendar">
-                          <i class="uil uil-calendar-alt"></i>
-                          To Be
-                       </div>
-                   </div>
-               </div> 
-   
-               <!--==================== QUALIFICATION 3 ====================--> 
-               <div class="qualification__data">
-                   <div>
-                       <h3 class="qualification__title">Backend - Developer</h3>
-                       <span class="qualification__subtitle">None</span>
-                       <div class="qualification__calendar">
-                          <i class="uil uil-calendar-alt"></i>
-                          To Be
-                       </div>
-                   </div>
-   
-                   <div>
-                       <span class="qualification__rounder"></span>
-                       <!-- <span class="qualification__line"></span> -->
-                   </div>
-               </div> 
-          
-               </div> 
-             
-               </div>
             </div>
         </section>
-      
+
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
             <h2 class="section__title">Services</h2>
             <span class="section__subtitle">My Projects</span>
 
             <div class="services__container container grid">
-        <!--==================== SERVICES 1 ====================-->  
-        <div class="services__content">
-            <div>
-                <i class="uil uil-web-grid services__icon"></i>
-                <h3 class="services__title"> Digital-Clock  <br> Project</h3>
-            </div>
-            <span class="button button--flex button--small button--link services__button">
-                View more
-                <i class="uil uil-arrow-right button__icon"></i>
-            </span>
 
-            <div class="services__modal">
-                <div class="services__modal-content">
-                    <h4 class="services__modal-title">With the help of  <br> HTML/CSS/JS</h4>
-                    <i class="uil uil-times services__modal-close"></i>
+                <!-- ======================SERVICES 0================== -->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title"> React-Blog <br> Project</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
 
-                    <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I develop the user interface.</p>
-                        </li>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">With the help of <br> HTML/CSS/JS/React</h4>
+                            <i class="uil uil-times services__modal-close"></i>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Webpage development.</p>
-                        </li>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Frontend website development.</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I create Responsive Website interactions.</p>
-                        </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>installing react-router-dom</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Set Alarm option also there</p>
-                        </li>
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Project Link</p>
-                            <a href="https://richerts7.github.io/Digital-Clock-JS/" target="_blank"> <br> Click here to open Project</a>
-                        </li>
-                    </ul>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>installing react-redux</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>installing react-bootstrap</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Which gives all news information</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Project Link</p>
+                                    <a href="https://richerts7-react-blog.netlify.app/" target="_blank"> <br> Click
+                                        here to open Project</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>  
-        
-        <!--==================== SERVICES 2 ====================-->  
-        <div class="services__content">
-            <div>
-                <i class="uil uil-arrow services__icon"></i>
-                <h3 class="services__title">Small - Cubic  <br> Game</h3>
-            </div>
-            <span class="button button--flex button--small button--link services__button">
-                View more
-                <i class="uil uil-arrow-right button__icon"></i>
-            </span>
 
-            <div class="services__modal">
-                <div class="services__modal-content">
-                    <h4 class="services__modal-title">Small Cubic <br> Game</h4>
-                    <i class="uil uil-times services__modal-close"></i>
+                <!--==================== SERVICES 1 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title"> Digital-Clock <br> Project</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
 
-                    <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I develop the interface.</p>
-                        </li>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">With the help of <br> HTML/CSS/JS</h4>
+                            <i class="uil uil-times services__modal-close"></i>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Website development / Web Responsive</p>
-                        </li>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I create smooth element interactions.</p>
-                        </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Webpage development.</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Project Link</p>
-                            <a href="https://richerts7.github.io/Cubemix-Game/" target="_blank"> <br> Click here to open Cubic Game</a>
-                        </li>
-                    </ul>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create Responsive Website interactions.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Set Alarm option also there</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Project Link</p>
+                                    <a href="https://richerts7.github.io/Digital-Clock-JS/" target="_blank"> <br> Click
+                                        here to open Project</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div> 
 
-        <!--==================== SERVICES 3 ====================-->  
-        <div class="services__content">
-            <div>
-                <i class="uil uil-pen services__icon"></i>
-                <h3 class="services__title">Frontend <br> Website</h3>
-            </div>
-            <span class="button button--flex button--small button--link services__button">
-                View more
-                <i class="uil uil-arrow-right button__icon"></i>
-            </span>
+                <!--==================== SERVICES 2 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow services__icon"></i>
+                        <h3 class="services__title">Small - Cubic <br> Game</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
 
-            <div class="services__modal">
-                <div class="services__modal-content">
-                    <h4 class="services__modal-title">Frontend <br> Website</h4>
-                    <i class="uil uil-times services__modal-close"></i>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Small Cubic <br> Game</h4>
+                            <i class="uil uil-times services__modal-close"></i>
 
-                    <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I develop the user interface.</p>
-                        </li>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the interface.</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>Webpage development.</p>
-                        </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Website development / Web Responsive</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I create website interactions.</p>
-                        </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create smooth element interactions.</p>
+                                </li>
 
-                        <li class="services__modal-service">
-                            <i class="uil uil-check-circle services__modal-icon"></i>
-                            <p>I complete my frontend website.</p>
-                        </li>
-                    </ul>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Project Link</p>
+                                    <a href="https://richerts7.github.io/Cubemix-Game/" target="_blank"> <br> Click here
+                                        to open Cubic Game</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div> 
+
+                <!--==================== SERVICES 3 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-pen services__icon"></i>
+                        <h3 class="services__title">Frontend <br> Website</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        View more
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Frontend <br> Website</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Webpage development.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create website interactions.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I complete my frontend website.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!--==================== PORTFOLIO ====================-->
@@ -592,69 +647,69 @@
 
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
-        <!--==================== PORTFOLIO 1 ====================-->
-        
-            <div class="portfolio__content grid swiper-slide">
-                <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                    <!--==================== PORTFOLIO 1 ====================-->
 
-                <div class="portfolio_">
-                    <h3 class="portfolio__title">Modern Website</h3>
-                    <p class="portfolio__description">Website adaptable to all devices, 
-                        with ui components and animated interactions.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Modern Website</h3>
+                            <p class="portfolio__description">Website adaptable to all devices,
+                                with ui components and animated interactions.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 2 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Brand design</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with
+                                ui components and animated interactions.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio_">
+                            <h3 class="portfolio__title">Online store</h3>
+                            <p class="portfolio__description">Website adaptable to all devices, with
+                                ui components and animated interactions.</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <!--==================== PORTFOLIO 2 ====================-->
-        
-            <div class="portfolio__content grid swiper-slide">
-                <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
-
-                <div class="portfolio_">
-                    <h3 class="portfolio__title">Brand design</h3>
-                    <p class="portfolio__description">Website adaptable to all devices, with 
-                        ui components and animated interactions.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!--==================== PORTFOLIO 3 ====================-->
-        
-            <div class="portfolio__content grid swiper-slide">
-                <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
-
-                <div class="portfolio_">
-                    <h3 class="portfolio__title">Online store</h3>
-                    <p class="portfolio__description">Website adaptable to all devices, with 
-                        ui components and animated interactions.</p>
-                    <a href="#" class="button button--flex button--small portfolio__button">
-                        Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </a>
-                </div>
-            </div>
+                <!-- add arrows-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
                 </div>
 
-            <!-- add arrows-->
-            <div class="swiper-button-next">
-                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-            </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
 
-            <div class="swiper-button-prev">
-                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-            </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
 
-            <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
-            
-        
-        </div>
+
+            </div>
 
         </section>
 
@@ -674,8 +729,8 @@
                 </div>
             </div>
 
-        </section>       
-            
+        </section>
+
 
         <!--==================== CONTACT ME ====================-->
         <section class="contact section" id="contact">
@@ -770,13 +825,15 @@
                 </ul>
 
                 <div class="footer__socials">
-                    <a href="https://www.facebook.com/richerts07?mibextid=ZbWKwL" target="_blank" class="footer__social">
+                    <a href="https://www.facebook.com/richerts07?mibextid=ZbWKwL" target="_blank"
+                        class="footer__social">
                         <i class="uil uil-facebook"></i>
                     </a>
                     <a href="https://www.instagram.com/richerts7/" target="_blank" class="footer__social">
                         <i class="uil uil-instagram"></i>
                     </a>
-                    <a href="https://twitter.com/richerts7?t=ZKQJZ4p8noZaEflOnB2_XQ&s=08" target="_blank" class="footer__social">
+                    <a href="https://twitter.com/richerts7?t=ZKQJZ4p8noZaEflOnB2_XQ&s=08" target="_blank"
+                        class="footer__social">
                         <i class="uil uil-twitter-alt"></i>
                     </a>
                 </div>
@@ -791,7 +848,7 @@
     <a href="#" class="scrollup" id="scroll-up">
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
-    
+
 
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
